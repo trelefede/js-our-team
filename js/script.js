@@ -68,6 +68,8 @@ for (let indexMembriTeam = 0; indexMembriTeam < membriTeam.length; indexMembriTe
     //                             </div>`;
 
     // stampo foto come immagine e non come stringa
-    containerTeam.innerHTML += `<div> <img src="images/${team.Foto}" alt="Foto${indexMembriTeam}"> </div>
-                                <div> <p> Nome: ${team.Nome}  Ruolo: ${team.Ruolo} </p>`
+    containerTeam.innerHTML += `<div class="card">
+                                <div> <img src="images/${team.Foto}" alt="Foto${indexMembriTeam}"> </div>
+                                <div> <p> Nome: ${team.Nome} </p> <p> Ruolo: ${team.Ruolo} </p>
+                                </div>`
 }
