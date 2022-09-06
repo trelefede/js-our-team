@@ -14,9 +14,48 @@ console.log('JS OK');
 // Organizzare i singoli membri in card/schede
 
 // DATI:
-// Wayne Barnett	Founder & CEO	wayne-barnett-founder-ceo.jpg
-// Angela Caroll	Chief Editor	angela-caroll-chief-editor.jpg
+// Wayne Barnett	Founder & CEO   wayne-barnett-founder-ceo.jpg
+// Angela Caroll	Chief Editor    angela-caroll-chief-editor.jpg
 // Walter Gordon	Office Manager	walter-gordon-office-manager.jpg
 // Angela Lopez	Social Media Manager	angela-lopez-social-media-manager.jpg
 // Scott Estrada	Developer	scott-estrada-developer.jpg
 // Barbara Ramos	Graphic Designer	barbara-ramos-graphic-designer.jpg
+
+// creo array di oggetti
+const membriTeam = [
+    {
+        Nome: 'Wayne Barnett',
+        Ruolo: 'Founder & CEO',
+        Foto: 'wayne-barnett-founder-ceo.jpg'
+    },
+    {
+        Nome: 'Angela Caroll',
+        Ruolo: 'Chief Editor',
+        Foto: 'angela-caroll-chief-editor.jpg'
+    },
+    {
+        Nome: 'Walter Gordon',
+        Ruolo: 'Office Manager',
+        Foto: 'walter-gordon-office-manager.jpg'
+    },
+    {
+        Nome: 'Angela Lopez',
+        Ruolo: 'Social Media Manager',
+        Foto: 'angela-lopez-social-media-manager.jpg'
+    },
+    {
+        Nome: 'Scott Estrada',
+        Ruolo: 'Developer',
+        Foto: 'scott-estrada-developer.jpg'
+    },
+    {
+        Nome: 'Barbara Ramos',
+        Ruolo: 'Graphic Designer',
+        Foto: 'barbara-ramos-graphic-designer.jpg'
+    }
+];
+
+
+for (let indexMembriTeam = 0; indexMembriTeam < membriTeam.length; indexMembriTeam++) {
+
+}
