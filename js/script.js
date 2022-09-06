@@ -63,9 +63,11 @@ for (let indexMembriTeam = 0; indexMembriTeam < membriTeam.length; indexMembriTe
 
     // stampo nel dom
     const containerTeam = document.querySelector(".team");
-    containerTeam.innerHTML += `<div>
-                                <p> Nome: ${team.Nome}  Ruolo: ${team.Ruolo}  Foto: ${team.Foto} </p>
-                                </div>`;
+    // containerTeam.innerHTML += `<div>
+    //                             <p> Nome: ${team.Nome}  Ruolo: ${team.Ruolo}  Foto: ${team.Foto} </p>
+    //                             </div>`;
 
-
+    // stampo foto come immagine e non come stringa
+    containerTeam.innerHTML += `<div> <img src="images/${team.Foto}" alt="Foto${indexMembriTeam}"> </div>
+                                <div> <p> Nome: ${team.Nome}  Ruolo: ${team.Ruolo} </p>`
 }
