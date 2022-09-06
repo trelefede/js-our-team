@@ -58,4 +58,9 @@ const membriTeam = [
 
 for (let indexMembriTeam = 0; indexMembriTeam < membriTeam.length; indexMembriTeam++) {
 
+    const team = membriTeam[indexMembriTeam];
+    console.log(team.Nome, team.Ruolo, team.Foto);
+
+    // stampo nel dom
+
 }
