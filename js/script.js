@@ -55,6 +55,7 @@ const membriTeam = [
     }
 ];
 
+const containerTeam = document.querySelector(".team");
 
 for (let indexMembriTeam = 0; indexMembriTeam < membriTeam.length; indexMembriTeam++) {
 
@@ -62,7 +63,6 @@ for (let indexMembriTeam = 0; indexMembriTeam < membriTeam.length; indexMembriTe
     console.log(team.Nome, team.Ruolo, team.Foto);
 
     // stampo nel dom
-    const containerTeam = document.querySelector(".team");
     // containerTeam.innerHTML += `<div>
     //                             <p> Nome: ${team.Nome}  Ruolo: ${team.Ruolo}  Foto: ${team.Foto} </p>
     //                             </div>`;
